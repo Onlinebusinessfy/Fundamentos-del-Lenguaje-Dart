@@ -1,3 +1,6 @@
+// Samuel Dominguez Lopez
+// Matricula: 23030296
+
 //Sesion 02A
 //Tipos de datos dinámicos
 

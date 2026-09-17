@@ -1,3 +1,6 @@
+// Samuel Dominguez Lopez
+// Matricula: 23030296
+
 // Estructuras de control
 
 void main(){
