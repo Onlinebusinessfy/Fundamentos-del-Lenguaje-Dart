@@ -34,29 +34,37 @@ abstract class Figura {
   }
 }
 
+// Se crea la clase Circulo que se extiende de figura
 class Circulo extends Figura{
   double radio;
 
   Circulo(double x, double y, String color, this.radio)
   :super(x, y, color);
 
+  // Sobrescribe el método getArea de Figura para calcular
+  // el área específica de un círculo.
   @override
   double getArea(){
     return 3.1416 * radio * radio;
   }
 }
 
+// Se crea la clase cuadrado que se extiende de Figura
 class Cuadrado extends Figura{
   double lado;
 
   Cuadrado(double x, double y, String color, this.lado)
   :super(x, y, color);
   
+  // Sobrescribe el método getArea de Figura para calcular
+  // el área específica de un cuadrado.
   @override
   double getArea(){
     return lado * lado;
   }
 
+  // Sobrescribe el método render de Figura para mostrar
+  // un mensaje personalizado para el cuadrado.
   @override
   String render(){
     return "Dibujando un Cuadrado de color: $color, en punto p( $x, $y)";
